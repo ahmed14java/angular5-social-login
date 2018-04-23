@@ -5,7 +5,7 @@ declare let gapi: any;
 
 export class TwitterLoginProvider extends BaseLoginProvider {
 
-  public static readonly PROVIDER_ID = 'google';
+  public static readonly PROVIDER_ID = 'twitter';
   public loginProviderObj: LoginProviderClass = new LoginProviderClass();
   private auth2: any;
 
